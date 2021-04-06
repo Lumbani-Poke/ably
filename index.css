@@ -1,0 +1,706 @@
+
+body{
+ background-color: transparent;
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+ max-width: 100%
+}
+nav{
+ background-color: white;
+ width:100%;
+ padding: 15px;
+ position: fixed;
+ z-index: 1000;
+ overflow: hidden;
+}
+.nav_list{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 2em;
+ left: 15em;
+}
+.nav_team a{
+ position: absolute;
+ top: 0;
+ left: 25em;
+ font-size: 20px;
+ color: #003547;
+}
+.nav_team a:hover{
+ font-size: 20px;
+ color: tomato;
+ transition: 0.8s;
+}
+.nav_articles a{
+ position: absolute;
+ top: 0;
+ left: 30em;
+ font-size: 20px;
+ color: #003547;
+}
+.nav_articles a:hover{
+ font-size: 20px;
+ color: tomato;
+ transition: 0.8s;
+}
+.nav_roadmap a{
+ position: absolute;
+ top: 0;
+ left: 35em;
+ font-size: 20px;
+ color: #003547;
+}
+.nav_roadmap a:hover{
+ font-size: 20px;
+ color: tomato;
+ transition: 0.8s;
+}
+.nav_IP_Policy a{
+ margin-left: 41em;
+ font-size: 20px;
+ color: #003547;
+}
+.nav_IP_Policy a:hover{
+ font-size: 20px;
+ color: tomato;
+ transition: 0.8s;
+}
+li {
+ display: inline;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+.button { 
+ text-align: center;
+ font-size: 20px;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ margin-left: 85%;
+ padding: 19px;
+ background-color: red;
+ border-radius: 16px;
+}
+.button a, active{
+ text-decoration: none;
+ color: white;
+}
+.button a:hover{
+ text-decoration: none;
+ color: white;
+}
+.button:hover {
+ color: white;
+ background-color: #003547;
+ transition: 0.8s;
+}
+.section{
+ width: 100%;
+ position: relative;
+ height: 100vh;
+ display: flex;
+ overflow: hidden;
+}
+.section h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ background: transparent;
+ padding: 0px;
+ margin-left: 80px;
+ margin-top: 3em;
+ z-index: 1;
+ overflow: hidden;
+}
+.video-container{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100vh;
+ overflow: hidden;
+}
+.section2{	
+ height: 100vh;
+ position: relative;
+ background-image: url('ss.jpeg');
+ background-repeat: no-repeat;
+ background-size: 95%;
+ display: flex;
+ top: 7em;
+ left: 2.5em;
+ overflow: hidden;
+}
+.section2 h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ background: transparent;
+ margin-left: 40px;
+ margin-top: 1em;
+ overflow: hidden;
+}
+.section2 h1 a{
+ color: white;
+}
+.section2 h1 a:hover{
+ color: red;
+ transition: 1s;
+}
+.section2 li {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 16em;
+ left: 2.5em;
+ font-size: 18px;
+ color: white;
+}
+.section2 li a{
+ color: white;
+}
+.section2 li a:hover{
+ transition: 0.8s;
+ color: tomato;
+}
+.logo img{
+ width: 7%;
+ position: absolute;
+ margin-top: 0;
+ margin-left: 10px;
+ z-index: 1;
+}
+.button2 a{
+ background: gray;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ padding: 20px;
+ font-size: 16px;
+ border-radius: 16px;
+ } 
+.button2 a:hover{
+  color: white;
+  background-color: #003547;
+  transition: 0.8s;
+ }
+ .list hr{
+  width: 65%;
+  margin-bottom: 5px;
+  margin-left: 2.4em;
+  color: tomato;
+ }
+.list a{
+ color: white;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 15px;
+ margin-left: 2.5em;
+}
+.list a:hover{
+ color: tomato;
+ text-decoration: none;
+ transition: 0.8s;
+}
+.button1_section{
+ display: inline-flex;
+ position: absolute;
+ padding: 50px;
+ width: 50%;
+ background-color: transparent;
+ top: 36em;
+ left: 2em;
+ z-index: 1;
+}
+.section3{
+ background-image: url('sss.jpeg');
+ height: 100vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: 95%;
+ display: flex;
+ top: 16em;
+ left: 2.5em;
+ overflow: hidden;
+}
+.section3 h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ background: transparent;
+ margin-left: 40px;
+ margin-top: 1em;
+ overflow: hidden;
+}
+.section3 h1 a{
+ color: white;
+}
+.section3 h1 a:hover{
+ color: tomato;
+ transition: 0.8s;
+}
+.section3 li {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 16em;
+ left: 2.5em;
+ font-size: 18px;
+ color: white;
+}
+.section3 li a{
+ color: white;
+}
+.section3 li a:hover{
+ transition: 0.8s;
+ color: tomato;
+}
+.section5{
+ background-image: url('ssss.jpeg');
+ height: 100vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: 95%;
+ display: flex;
+ top: 30em;
+ left: 2.5em;
+ overflow: hidden;
+}
+.section5 h1{
+ font-size: 5em;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: white;
+ background: transparent;
+ margin-left: 40px;
+ margin-top: 1em;
+ overflow: hidden;
+}
+.section5 h1 a{
+ color: white;
+}
+.section5 h1 a:hover{
+ color: red;
+ transition: 1s;
+}
+.section5 li {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 12em;
+ left: 3em;
+ font-size: 18px;
+ color: white;
+}
+.section5 li a{
+ color: white;
+}
+.section5 li a:hover{
+ transition: 0.8s;
+ color: tomato;
+}
+.column {
+ width: 46%;
+ padding: 2px;
+ margin-right: 2em;
+ margin-top: 8em;
+ }
+ .section6{
+ background-color: white;
+ height: 100vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: 95%;
+ top: 20em;
+ left: 2.5em;
+ overflow: hidden;
+}
+.row{	
+ background-repeat: no-repeat;
+ display: flex;
+}
+h3 {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 22px;
+ color: slategray;
+ top: 1em;
+ left: 0;
+}
+h2 {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: slategray;
+ top: 1em;
+ left: 53.3em;
+}
+.achieve hr{
+ color: red;
+}
+.achieve a{
+ color: slategray;
+ text-decoration: none;
+}
+.achieve a:hover{
+ color: tomato;
+}
+h4 {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: slategray;
+ font-size: 26px;
+ top:22.5em;
+ left: 0em;
+}
+.how_health a{
+ color: slategray;
+ text-decoration: none;
+}
+.how_health a:hover{
+ color: tomato;
+}
+h5 {
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: slategray;
+ font-size: 25px;
+ top: 23em;
+ left: 28.5em;
+}
+.who_owns a{
+ color: slategray;
+ text-decoration: none;
+}
+.who_owns a:hover{
+ color: tomato;
+}
+.section4{
+ height: 100vh;
+ position: relative;
+ background-color: tomato;
+ background-repeat: no-repeat;
+ display: flex;
+ top: 24em;
+ left: 0;
+ overflow: hidden;
+}
+.form_section{
+ position: absolute;
+ top: 6em;
+ left: 37em;
+ width: 60%;
+ padding: 15px;
+ background-color: transparent;
+}
+input[type=text], select {
+ width: 80%;
+ padding: 22px 0px 20px 15px;
+ margin: 10px 0;
+ margin-left: 100px;
+ display: inline-block;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ box-sizing: border-box;
+
+}
+textarea{
+ border-radius: 10px;
+ margin: 20px 0;
+ margin-left: 100px;
+ border: 1px solid transparent;
+ padding: 22px 0px 30px 15px;
+ font-family: 'Karelia', arial;
+ font-size: 14px
+}
+.checkbox{
+ margin-left: 100px;
+}
+.check{
+ font-family: 'Karelia', arial;
+ color: white;
+ font-size: 20px;
+}
+.button3 { 
+ position: absolute;
+ text-align: center;
+ font-size: 20px;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 27em;
+ left: 5.5em;
+ padding: 19px;
+ background-color: #003547;
+ border-radius: 16px;
+}
+.button3 a, active{
+ text-decoration: none;
+ color: white;
+}
+.button3 a:hover{
+ text-decoration: none;
+ color: #003547;
+}
+.button3:hover {
+ color: white;
+ background-color: white;
+ transition: 0.8s;
+}
+.Maria_Hiv{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 15px;
+ top: 48em;
+ left: 0;
+}
+.Maria_Hiv a{
+ color: slategray;
+}
+.Tov_Ola{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 15px;
+ top: 48em;
+ left: 45em;
+}
+.Tov_Ola a{
+ color: slategray ;
+}
+.section4 h4{
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 20px;
+ color: white;
+ top: 4em;
+ left: 2em;
+}
+.ably_agree_link{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ top: 23.6em;
+ left: 9em;
+}
+.section4 h1{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 46px;
+ color: white;
+ top: 4em;
+ left: 0.8em;
+}
+.email_last_part{
+ position: absolute;
+ top: 6em;
+ left: 53em;
+ width: 40%;
+ padding: 5px;
+ background-color: transparent;
+}
+.section7{
+ background-image: url('las.jpeg');
+ height: 45vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ top: 35em;
+ left: 0;
+ overflow: hidden;
+}
+.email_last_part input[type=text], select {
+ width: 70%;
+ margin-left: 14px;
+ display: inline-block;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ box-sizing: border-box;
+}
+.email_last_part .button4 { 
+ text-align: center;
+ margin-left: 5px;
+ font-size: 20px;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ padding: 19px;
+ background-color: tomato;
+ border-radius: 16px;
+}
+.button4 a, active{
+ text-decoration: none;
+ color: white;
+}
+.button4 a:hover{
+ text-decoration: none;
+ color: white;
+}
+.button4:hover {
+ color: white;
+ background-color: #003547;
+ transition: 0.8s;
+}
+.email_last_part .tik{
+ margin-left: 1em;
+ margin-top: 4em;
+ padding: 5px;
+}
+input[type='checkbox'] {
+ width:25px;
+ height:25px;
+ border-radius:5px;
+}
+.email_last_part .check{
+ position: absolute;
+ top: 143px;
+ left: 62px;
+ color: white;
+ font-size: 18px;
+}
+.section7 h1{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 50px;
+ color: white;
+ top: 1em;
+ left: 1em;
+}
+.section8{
+ background-color: white;
+ height: 60vh;
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ top: 35em;
+ left: 0;
+ overflow: hidden;
+}
+.logo3 img{
+ width: 2.4%;
+ position: absolute;
+ top: 15em;
+ left: 3.1em;
+}
+.section8 h1{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ color: #003547;
+ font-size: 28px;
+ top: 8em;
+ left: 4em;
+}
+.section8 h1 a{
+ color: #003547;
+}
+.section8 h1 a:hover{
+ color: tomato;
+}
+.logo2 img{
+ width: 2.8%;
+ position: absolute;
+ top: 18em;
+ left: 3em;
+}
+.section8 h2{
+ position: absolute;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 27px;
+ color: #003547;
+ top: 10em;
+ left: 4em;
+}
+.section8 h2 a{
+ color: #003547;
+}
+.section8 h2 a:hover{
+ color: tomato;
+}
+.first_list{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-stretch: 100%;
+ font-size: 20px;
+ padding: 0px 18px;
+ top: 10em;
+ left: 34em;
+}
+.first_list a{
+ color: #003547;
+}
+.first_list a:hover{
+ color: tomato;
+}
+.second_list{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 20px;
+ padding: 0px 18px;
+ top: 10em;
+ left: 54em;
+}
+.contact{
+ position: absolute;	
+ color: tomato;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 20px;
+ padding: 0px 18px;
+ top: 15em;
+ left: 54em;
+}
+.contact a{
+ color: tomato;
+}
+.second_list a{
+ color: #003547;
+}
+.second_list a:hover{
+ color: red;
+}
+.third_single_list{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 20px;
+ padding: 0px 18px;
+ top: 21em;
+ left: 54em;
+}
+.forth_single_list{
+ position: absolute;	
+ color: #003547;
+ font-weight: 100;
+ font-family: "Raleway", Sans-serif;
+ font-size: 20px;
+ padding: 0px 18px;
+ top: 21.2em;
+ left: 34em;
+}
+.ably_last_section_logo img{
+ width: 5%;
+ position: absolute;
+ margin-top: 26.3em;
+ left: 2em;
+ margin-left: 10px;
+}
